@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: checkout-srvc
+  labels:
+    env: prod
+  annotations:
+    audit: "true"
